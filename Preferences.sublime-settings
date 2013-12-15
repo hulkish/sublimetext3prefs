@@ -44,7 +44,7 @@
 	"copy_with_empty_selection": true,
 	"create_window_at_startup": true,
 	"default_encoding": "UTF-8",
-	"default_line_ending": "system",
+	"default_line_ending": "LF",
 	"detect_indentation": true,
 	"dictionary": "Packages/Language - English/en_US.dic",
 	"drag_text": true,
@@ -109,13 +109,13 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Vintage",
+		"Highlighter",
 		"Autoprefixer",
-		"Highlighter"
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
-		"draw_normal",
+		// "draw_normal",
 		"draw_active"
 	],
 	"indent_subsequent_lines": true,
