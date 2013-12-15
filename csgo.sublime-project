@@ -1,0 +1,13 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "D:\\SteamLibrary\\SteamApps\\common\\Counter-Strike Global Offensive\\csgo\\cfg"
+		},
+		{
+			"follow_symlinks": true,
+			"path": "D:\\dev\\repos\\libs\\as3\\robotlegs\\Robotlegs-2-Simple-Project-with-Popup"
+		}
+	]
+}
