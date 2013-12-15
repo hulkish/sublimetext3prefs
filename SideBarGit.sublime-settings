@@ -1,0 +1,4 @@
+{
+    "statusbar_branch" : true,
+    "path_to_git_unixes":"C:\\Program Files (x86)\\Git\\bin\\git.exe" //example: /usr/local/git/bin/git
+}
