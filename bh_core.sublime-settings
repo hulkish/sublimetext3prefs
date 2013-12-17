@@ -345,7 +345,7 @@
         "unmatched": {
             "icon": "question",
             // "color": "brackethighlighter.unmatched",
-            "style": "outline"
+            "style": "underline"
         },
         // User defined region styles
         "curly": {
@@ -371,7 +371,7 @@
         "tag": {
             "icon": "tag",
             // "color": "brackethighlighter.tag",
-            "style": "outline"
+            "style": "underline"
         },
         "single_quote": {
             "icon": "single_quote"

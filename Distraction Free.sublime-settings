@@ -1,5 +1,7 @@
 {
     "draw_centered": false,
     "margin": 6,
-    "overlay_scroll_bars": "disabled"
+    "overlay_scroll_bars": "enabled",
+    "line_numbers":true,
+    "gutter": true
 }

@@ -38,8 +38,8 @@
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
-	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Wombat Theme/Wombat-dark.tmTheme",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/User/Sunburst (SL).tmTheme",
 	"color_scheme_0": "Packages/Theme - Nil/Big Duo.tmTheme",
 	"copy_with_empty_selection": true,
 	"create_window_at_startup": true,
@@ -51,8 +51,8 @@
 	"draw_centered": false,
 	"draw_indent_guides": true,
 	"draw_minimap_border": false,
-	"draw_white_space": "selection",
-	"enable_hexadecimal_encoding": true,
+	"draw_white_space": "none",
+	"enable_hexadecimal_encoding": false,
 	"enable_telemetry": "auto",
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
@@ -101,7 +101,7 @@
 		"directwrite",
 		"gdi"
 	],
-	"font_size": 11,
+	"font_size": 12,
 	"gpu_window_buffer": true,
 	"gutter": true,
 	"highlight_line": true,
@@ -109,12 +109,13 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"Vintage",
 		"GitGutter",
+		"Vintage",
+		"Markdown",
+		"SideBarGit",
 		"Sublime Bookmarks",
-		"Autoprefixer",
-		"Highlighter",
-		"Markdown"
+		"AutoBackups",
+		"JsFormat"
 	],
 	"indent_guide_options":
 	[
@@ -137,10 +138,10 @@
 	"move_to_limit_on_up_down": false,
 	"open_files_in_new_window": false,
 	"origami_auto_zoom_on_focus": false,
-	"overlay_scroll_bars": "none",
+	"overlay_scroll_bars": "enabled",
 	"preview_on_click": true,
 	"remember_open_files": true,
-	"reveal-on-activate": true,
+	"reveal-on-activate": false,
 	"rulers":
 	[
 	],
@@ -155,7 +156,7 @@
 	"spell_check": false,
 	"tab_completion": false,
 	"tab_size": 4,
-	"theme": "Flatland Dark.sublime-theme",
+	"theme": "Phoenix Dark.sublime-theme",
 	"theme_0": "Nil.sublime-theme",
 	"theme_1": "Wombat.sublime-theme",
 	"theme_2": "Flatland Dark.sublime-theme",
@@ -173,6 +174,6 @@
 	"wombat_color_white_": true,
 	"wombat_dirty_bottom_bar_blue": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
-	"word_wrap": "auto",
+	"word_wrap": "always",
 	"wrap_width": 0
 }
