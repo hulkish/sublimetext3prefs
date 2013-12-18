@@ -109,13 +109,24 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"GitGutter",
-		"Vintage",
-		"Markdown",
 		"SideBarGit",
 		"Sublime Bookmarks",
+		"Vintage",
 		"AutoBackups",
-		"JsFormat"
+		"JsFormat",
+		"Markdown",
+		"Clipboard Manager",
+		"AutoFileName",
+		"BracketHighlighter",
+		"EditorConfig",
+		"EncodingHelper",
+		"Git",
+		"HexViewer",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimePeek",
+		"Theme - Flatland"
 	],
 	"indent_guide_options":
 	[

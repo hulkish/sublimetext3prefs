@@ -7,6 +7,7 @@
 		"AutoBackups",
 		"AutoFileName",
 		"AutoHotkey",
+		"Autoprefixer",
 		"Backbone.js",
 		"Base16 Color Schemes",
 		"Better TypeScript",
@@ -27,7 +28,6 @@
 		"EncodingHelper",
 		"Function Name Display",
 		"Git",
-		"GitGutter",
 		"Goto Documentation",
 		"HexViewer",
 		"HTML Snippets",
@@ -41,6 +41,7 @@
 		"jQuery",
 		"JS Snippets",
 		"JsFormat",
+		"JSHint Gutter",
 		"Lazy Backbone.js",
 		"LESS",
 		"MaxPane",
@@ -54,8 +55,6 @@
 		"Python Auto-Complete",
 		"ResponsiveBoilerplate",
 		"Sail Color Scheme",
-		"Sass",
-		"SassBeautify",
 		"SideBarEnhancements",
 		"SideBarGit",
 		"SnippetMaker",
@@ -79,5 +78,7 @@
 		"Twitter Bootstrap ClassNames Completions",
 		"Wombat Theme"
 	],
-	"repositories": []
+	"repositories":
+	[
+	]
 }
