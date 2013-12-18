@@ -14,6 +14,18 @@
     "sublime_auto_complete": true,
 
     /*
+<<<<<<< HEAD
+=======
+        Tooltips method:
+
+        "popup" - Uses Autocomplete popup for tooltips.
+        "panel" - Uses the output panel for tooltips.
+        "status" - Uses the status bar for tooltips (was the default).
+    */
+    "codeintel_tooltips": "popup",
+
+    /*
+>>>>>>> de97ee44357a7a337e3e0fba10f90ff631a5af20
         Insert functions snippets.
     */
     "codeintel_snippets": true,
@@ -112,7 +124,11 @@
         "JavaScript": {
             "javascriptExtraPaths": [],
             "codeintel_scan_files_in_project": false,
+<<<<<<< HEAD
             "codeintel_max_recursive_dir_depth": 5
+=======
+            "codeintel_max_recursive_dir_depth": 2
+>>>>>>> de97ee44357a7a337e3e0fba10f90ff631a5af20
         },
         "PHP": {
             "phpExtraPaths": [],
