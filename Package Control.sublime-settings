@@ -21,11 +21,13 @@
 		"CSS Snippets",
 		"Directory Settings",
 		"DocBlockr",
+		"Dracula Color Scheme",
 		"Edit Preferences",
 		"EditorConfig",
 		"Emmet",
 		"EncodingHelper",
 		"Function Name Display",
+		"Future Funk - Color Scheme",
 		"Git",
 		"GitGutter",
 		"Goto Documentation",
@@ -43,6 +45,8 @@
 		"JsFormat",
 		"Lazy Backbone.js",
 		"LESS",
+		"Markdown Preview",
+		"MarkdownEditing",
 		"MaxPane",
 		"Modific",
 		"OpenFileList",
@@ -79,5 +83,7 @@
 		"Twitter Bootstrap ClassNames Completions",
 		"Wombat Theme"
 	],
-	"repositories": []
+	"repositories":
+	[
+	]
 }

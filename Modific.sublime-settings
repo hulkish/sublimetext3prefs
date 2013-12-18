@@ -29,7 +29,7 @@
     "console_encoding" : "UTF-8",
 
     // if true, plugin prints some debug information to the console window
-    "debug": true,
+    "debug": false,
 
     // set to false to disable automatic saving
     "autosave": true,

@@ -39,7 +39,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/Sunburst (SL).tmTheme",
+	"color_scheme": "Packages/User/Future Funk (SL).tmTheme",
 	"color_scheme_0": "Packages/Theme - Nil/Big Duo.tmTheme",
 	"copy_with_empty_selection": true,
 	"create_window_at_startup": true,
@@ -85,7 +85,6 @@
 	"folder_exclude_patterns":
 	[
 		".svn",
-		".bower*",
 		".git",
 		".hg",
 		"CVS"
@@ -101,7 +100,7 @@
 		"directwrite",
 		"gdi"
 	],
-	"font_size": 12,
+	"font_size": 11,
 	"gpu_window_buffer": true,
 	"gutter": true,
 	"highlight_line": true,
@@ -109,13 +108,13 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
+		"JsFormat",
+		"Sublime Bookmarks",
 		"GitGutter",
 		"Vintage",
 		"Markdown",
 		"SideBarGit",
-		"Sublime Bookmarks",
-		"AutoBackups",
-		"JsFormat"
+		"AutoBackups"
 	],
 	"indent_guide_options":
 	[
