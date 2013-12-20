@@ -39,8 +39,9 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/Future Funk (SL).tmTheme",
+	"color_scheme": "Packages/User/Phoenix Dark Green - Eighties (SL).tmTheme",
 	"color_scheme_0": "Packages/Theme - Nil/Big Duo.tmTheme",
+	"color_scheme_1": "Packages/User/Future Funk (SL).tmTheme",
 	"copy_with_empty_selection": true,
 	"create_window_at_startup": true,
 	"default_encoding": "UTF-8",
@@ -108,13 +109,13 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"JsFormat",
 		"Sublime Bookmarks",
-		"GitGutter",
-		"Vintage",
-		"Markdown",
 		"SideBarGit",
-		"AutoBackups"
+		"JsFormat",
+		"Markdown",
+		"GitGutter",
+		"AutoBackups",
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
