@@ -39,7 +39,7 @@
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/Phoenix Dark Green - Eighties (SL).tmTheme",
+	"color_scheme": "Packages/User/Tomorrow-Night-Bright (SL).tmTheme",
 	"color_scheme_0": "Packages/Theme - Nil/Big Duo.tmTheme",
 	"color_scheme_1": "Packages/User/Future Funk (SL).tmTheme",
 	"copy_with_empty_selection": true,
@@ -115,7 +115,8 @@
 		"Markdown",
 		"GitGutter",
 		"AutoBackups",
-		"Vintage"
+		"Vintage",
+		"Modific"
 	],
 	"indent_guide_options":
 	[
@@ -139,6 +140,17 @@
 	"open_files_in_new_window": false,
 	"origami_auto_zoom_on_focus": false,
 	"overlay_scroll_bars": "enabled",
+	"phoenix_color_blue": true,
+	"phoenix_color_green_": false,
+	"phoenix_color_red_": false,
+	"phoenix_color_white_": true,
+	"phoenix_dirty_bottom_bar": true,
+	"phoenix_dirty_bottom_bar_red": true,
+	"phoenix_eighties": true,
+	"phoenix_highlight_current_tab": true,
+	"phoenix_sidebar_tree_small": true,
+	"phoenix_tabs_auto_width": true,
+	"phoenix_tabs_font_normal": true,
 	"preview_on_click": true,
 	"remember_open_files": true,
 	"reveal-on-activate": false,
@@ -168,11 +180,6 @@
 	"use_simple_full_screen": false,
 	"use_tab_stops": true,
 	"wide_caret": true,
-	"wombat_color_blue": true,
-	"wombat_color_green_": false,
-	"wombat_color_red_": false,
-	"wombat_color_white_": true,
-	"wombat_dirty_bottom_bar_blue": true,
 	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
 	"word_wrap": "always",
 	"wrap_width": 0
