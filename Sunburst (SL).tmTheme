@@ -50,7 +50,7 @@
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#000000</string>
+					<string>#0A0A0A</string>
 					<key>caret</key>
 					<string>#A7A7A7</string>
 					<key>foreground</key>
@@ -696,16 +696,6 @@
 			</dict>
 		<dict>
             <key>name</key>
-            <string>SublimeLinter Error</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FF8080</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Warning</string>
             <key>scope</key>
             <string>sublimelinter.mark.warning</string>
@@ -723,6 +713,16 @@
             <dict>
                 <key>foreground</key>
                 <string>#FFFFFF</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF8080</string>
             </dict>
         </dict></array>
 		<key>uuid</key>

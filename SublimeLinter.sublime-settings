@@ -1,69 +1,101 @@
 {
-    "user": {
-        "debug": false,
-        "delay": 0.25,
-        "error_color": "FF8080",
-        "gutter_theme": "Packages/SublimeLinter/gutter-themes/Circle/Circle.gutter-theme",
-        "gutter_theme_excludes": [],
-        "lint_mode": "background",
-        "linters": {
-            "csslint": {
-                "@disable": false,
-                "args": [],
-                "errors": "",
-                "excludes": [],
-                "ignore": "",
-                "warnings": ""
-            },
-            "gjslint": {
-                "@disable": true,
-                "args": [],
-                "disable": "",
-                "excludes": [],
-                "jslint_error": "",
-                "max_line_length": null
-            },
-            "htmltidy": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "jshint": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            },
-            "jsl": {
-                "@disable": true,
-                "args": [],
-                "conf": "jsl.conf",
-                "excludes": []
-            },
-            "json": {
-                "@disable": false,
-                "args": [],
-                "excludes": []
-            }
-        },
-        "mark_style": "squiggly underline",
-        "paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "python_paths": {
-            "linux": [],
-            "osx": [],
-            "windows": []
-        },
-        "rc_search_limit": 3,
-        "show_errors_on_save": true,
-        "show_marks_in_minimap": true,
-        "syntax_map": {
-            "js": "jshint",
-            "php": "html"
-        },
-        "warning_color": "DDB700",
-        "wrap_find": true
-    }
+	"user":
+	{
+		"debug": false,
+		"delay": 0.25,
+		"error_color": "FF8080",
+		"gutter_theme": "Packages/SublimeLinter/gutter-themes/Circle/Circle.gutter-theme",
+		"gutter_theme_excludes":
+		[
+		],
+		"lint_mode": "background",
+		"linters":
+		{
+			"csslint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"errors": "",
+				"excludes":
+				[
+				],
+				"ignore": "",
+				"warnings": ""
+			},
+			"htmltidy":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"jshint":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			},
+			"json":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
+			}
+		},
+		"mark_style": "solid underline",
+		"no_column_highlights_line": false,
+		"paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+				"c:\\dev\\tools\\bin\\",
+				"c:\\dev\\tools\\bin\\tidy"
+			]
+		},
+		"python_paths":
+		{
+			"linux":
+			[
+			],
+			"osx":
+			[
+			],
+			"windows":
+			[
+			]
+		},
+		"rc_search_limit": 15,
+		"show_errors_on_save": true,
+		"show_marks_in_minimap": true,
+		"sublimelinter_executable_map":
+		{
+		},
+		"syntax_map":
+		{
+			"html": "html-tidy",
+			"js": "jshint",
+			"less": "csslint"
+		},
+		"warning_color": "DDB700",
+		"wrap_find": true
+	}
 }

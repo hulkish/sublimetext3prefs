@@ -1,0 +1,34 @@
+{
+    /* show overview of all available help files if no help file found */
+    "overview":true,
+
+    /*
+    Define custom  executable for display of help files
+
+       Example (default for Max OS):
+       ["/usr/bin/qlmanage", "-p"]
+       Example (default for Linux):
+       ["/usr/bin/gloobus-preview"]
+       On Windows, SublimePeek opens the help file in the default browser.
+       Alternatively, you can set an application here such as maComfort
+       ["C:\\Program Files\\maComfort\\maComfort.exe", "-ql"]
+       or
+       ['C:\\Program Files (x86)\\maComfort\\maComfort.exe', '-ql']
+    */
+    "custom_executable":[],
+
+    /*
+    Python Help: Define arguments for pydoc call (default: ["pydoc", "-w"])
+        On Windows this should be changed to something like this:
+        ["python", r"c:\Python32\Lib\pydoc.py", "-w"]
+    */
+    "pydoc_call":["python", "C:\\Python33\\Lib\\pydoc.py" "-w"],
+    "pandoc":false,
+    "pandoc_path":"pandoc",
+
+    /*
+    Ruby Help: Define arguments for ri call (default: ['ri', '--format', 'html', '--system', '--gems'])
+        On Windows this should be changed but I am not sure about the correct setting.
+    */
+    "ri_call":["ri", "--format", "html", "--system", "--gems"]
+}
