@@ -72,13 +72,13 @@
     */
     "codeintel_scan_exclude_dir":
     {
-        "JavaScript":["/build/", "/min/"]
+        "JavaScript":["/build/", "/min/", "/*bower*/"]
     },
 
     /* Code Scanning: Controls how the Code Intelligence system scans your source code files. */
 
     /* Maximum directory depth: */
-    "codeintel_max_recursive_dir_depth": 10,
+    "codeintel_max_recursive_dir_depth": 5,
 
     /* Include all files and directories from the project base directory: */
     "codeintel_scan_files_in_project": true,
@@ -103,7 +103,7 @@
             PECL (for PHP: A collection of PHP Extensions)
     */
     "codeintel_selected_catalogs": [
-        "PyWin32", "jQuery", "Rails"
+        "PyWin32", "jQuery", "Rails", "HTML5"
     ],
 
     /*
@@ -120,8 +120,8 @@
         },
         "JavaScript": {
             "javascriptExtraPaths": [],
-            "codeintel_scan_files_in_project": false,
-            "codeintel_max_recursive_dir_depth": 2
+            "codeintel_scan_files_in_project": true,
+            "codeintel_max_recursive_dir_depth": 5
         },
         "PHP": {
             "phpExtraPaths": [],

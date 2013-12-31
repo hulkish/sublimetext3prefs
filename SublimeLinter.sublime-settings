@@ -53,6 +53,16 @@
 				"excludes":
 				[
 				]
+			},
+			"php":
+			{
+				"@disable": false,
+				"args":
+				[
+				],
+				"excludes":
+				[
+				]
 			}
 		},
 		"mark_style": "solid underline",
