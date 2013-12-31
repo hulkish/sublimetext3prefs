@@ -19,6 +19,7 @@
   // When set to true GitGutter runs asynchronously in a seperate thread
   // This may cause a small delay between a modification and the icon change
   // but can increase performance greatly if needed.
+<<<<<<< Updated upstream
   "non_blocking": false,
 =======
 
@@ -27,6 +28,9 @@
   // but can increase performance greatly if needed.
   "non_blocking": true,
 >>>>>>> de97ee44357a7a337e3e0fba10f90ff631a5af20
+=======
+  "non_blocking": true,
+>>>>>>> Stashed changes
 
   // Determines whether GitGutter ignores whitespace in modified files.
   // Set "none" to ensure whitespace is considered in the diff

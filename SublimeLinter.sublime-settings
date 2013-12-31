@@ -3,6 +3,7 @@
     SublimeLinter default settings
 */
 {
+<<<<<<< Updated upstream
     /*
         Sets the mode in which SublimeLinter runs:
 
@@ -225,12 +226,28 @@
 {
     "user": {
         "debug": true,
+=======
+    "user": {
+        "debug": false,
+>>>>>>> Stashed changes
         "delay": 0.25,
         "error_color": "FF8080",
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Circle/Circle.gutter-theme",
         "gutter_theme_excludes": [],
         "lint_mode": "background",
         "linters": {
+<<<<<<< Updated upstream
+=======
+            "annotations": {
+                "@disable": true,
+                "args": [],
+                "errors": [
+                    "FIX!"
+                ],
+                "excludes": [],
+                "warnings": "[TODO], TODO:, [FIX], FIX:"
+            },
+>>>>>>> Stashed changes
             "csslint": {
                 "@disable": false,
                 "args": [],
@@ -260,13 +277,18 @@
             "jsl": {
                 "@disable": true,
                 "args": [],
+<<<<<<< Updated upstream
                 "conf": "jsl.conf",
+=======
+                "conf": null,
+>>>>>>> Stashed changes
                 "excludes": []
             },
             "json": {
                 "@disable": false,
                 "args": [],
                 "excludes": []
+<<<<<<< Updated upstream
             }
         },
         "mark_style": "squiggly underline",
@@ -274,21 +296,55 @@
             "linux": [],
             "osx": [],
             "windows": []
+=======
+            },
+            "php": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            }
+        },
+        "mark_style": "solid underline",
+        "no_column_highlights_line": false,
+        "paths": {
+            "linux": [],
+            "osx": [],
+            "windows": [
+                "D:\\dev\\libs\\",
+                "D:\\dev\\libs\\tidy",
+                "D:\\dev\\tools\\bin",
+                "D:\\dev\\tools\\bin\\tidy"
+            ]
+>>>>>>> Stashed changes
         },
         "python_paths": {
             "linux": [],
             "osx": [],
             "windows": []
         },
+<<<<<<< Updated upstream
         "rc_search_limit": 3,
         "show_errors_on_save": true,
         "show_marks_in_minimap": true,
         "syntax_map": {
             "js": "jshint",
             "php": "html"
+=======
+        "rc_search_limit": 15,
+        "show_errors_on_save": true,
+        "show_marks_in_minimap": true,
+        "sublimelinter_executable_map": {},
+        "syntax_map": {
+            "html": "html-tidy",
+            "js": "jshint",
+            "less": "csslint"
+>>>>>>> Stashed changes
         },
         "warning_color": "DDB700",
         "wrap_find": true
     }
+<<<<<<< Updated upstream
 >>>>>>> de97ee44357a7a337e3e0fba10f90ff631a5af20
+=======
+>>>>>>> Stashed changes
 }
