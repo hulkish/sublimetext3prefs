@@ -188,9 +188,41 @@
     {
         "keys": ["ctrl+shift+x"],
         "command": "reveal_in_side_bar"
-    }, {
+    },
+
+    {
         "keys": ["ctrl+alt+r"],
         "command": "js_format"
+    },
+
+    {
+        "keys": ["alt+'"],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["single_quote", "double_quote", "py_single_quote", "py_double_quote"],
+                "command": "bh_modules.swapquotes"
+            }
+        }
+    },
+
+    {
+        "keys": ["ctrl+shift+'"],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["single_quote", "double_quote", "py_single_quote", "py_double_quote"],
+                "command": "bh_modules.swapquotes"
+            }
+        }
     }
+
+
 
 ]

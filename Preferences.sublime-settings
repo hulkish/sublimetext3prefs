@@ -42,7 +42,7 @@
 	"caret_extra_width": 2,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/User/Future Funk (SL).tmTheme",
+	"color_scheme": "Packages/User/Flatland Dark-custom.tmTheme",
 	"color_scheme_0": "Packages/Theme - Nil/Big Duo.tmTheme",
 	"color_scheme_1": "Packages/User/Future Funk (SL).tmTheme",
 	"copy_with_empty_selection": true,
@@ -58,7 +58,7 @@
 	"draw_white_space": "none",
 	"enable_hexadecimal_encoding": false,
 	"enable_tab_scrolling": false,
-	"enable_telemetry": true,
+	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"fallback_encoding": "Western (Windows 1252)",
@@ -86,7 +86,7 @@
 		"*.sublime-workspace"
 	],
 	"find_selected_text": true,
-	"fold_buttons": false,
+	"fold_buttons": true,
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -95,17 +95,16 @@
 		"CVS"
 	],
 	"font_face": "Consolas",
-	"font_face_0": "",
-	"font_face_1": "Monaco",
+	"font_face_0": "Meslo LS M DZ",
+	"font_face_1": "Consolas",
 	"font_face_2": "Inconsolata",
 	"font_face_3": "Monaco",
 	"font_options":
 	[
 		"subpixel_antialias",
-		"directwrite",
-		"gdi"
+		"directwrite"
 	],
-	"font_size": 13,
+	"font_size": 10,
 	"gpu_window_buffer": true,
 	"gutter": true,
 	"highlight_line": true,
@@ -113,20 +112,21 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"SideBarGit",
-		"Modific",
-		"Better JavaScript",
-		"Markdown",
-		"Pretty JSON",
-		"Vintage",
-		"AutoBackups",
 		"GitGutter",
+		"Better JavaScript",
 		"Sublime Bookmarks",
+		"Vintage",
+		"Markdown",
+		"LiveReload",
+		"AutoBackups",
+		"Modific",
 		"EditorConfig",
-		"LiveReload"
+		"Pretty JSON",
+		"SideBarGit"
 	],
 	"indent_guide_options":
 	[
+		"draw_normal",
 		"draw_active"
 	],
 	"indent_subsequent_lines": true,
@@ -144,23 +144,20 @@
 	"match_selection": true,
 	"match_tags": true,
 	"minimap_scroll_to_clicked_text": true,
-	"move_to_limit_on_up_down": false,
+	"move_to_limit_on_up_down": true,
 	"open_files_in_new_window": false,
 	"origami_auto_zoom_on_focus": false,
 	"overlay_scroll_bars": "enabled",
 	"phoenix_color_blue": true,
 	"phoenix_color_expanded_folder": true,
-	"phoenix_color_green_": false,
-	"phoenix_color_red_": false,
-	"phoenix_color_white_": true,
 	"phoenix_dirty_bottom_bar": true,
 	"phoenix_dirty_bottom_bar_red": true,
-	"phoenix_draw_shadows": true,
+	"phoenix_draw_shadows": false,
 	"phoenix_eighties": true,
 	"phoenix_highlight_current_tab": true,
 	"phoenix_sidebar_tree_small": true,
 	"phoenix_tabs_auto_width": true,
-	"phoenix_tabs_font_large": true,
+	"phoenix_tabs_font_normal": true,
 	"phoenix_tabs_small": true,
 	"preview_on_click": true,
 	"remember_open_files": true,
@@ -186,6 +183,7 @@
 	"theme_1": "Wombat.sublime-theme",
 	"theme_2": "Flatland Dark.sublime-theme",
 	"theme_3": "Phoenix Dark.sublime-theme",
+	"theme_4": "Spacefunk (Blue Monday).sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": true,
 	"trim_automatic_white_space": true,

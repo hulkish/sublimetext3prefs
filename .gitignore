@@ -2,3 +2,4 @@
 *.last-run
 *(SL).tmTheme
 .gitignore
+*.dmp

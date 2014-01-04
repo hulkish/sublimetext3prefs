@@ -14,6 +14,7 @@
     "break_chained_methods": false,
     "e4x": false,
     "wrap_line_length": 105,
+    "single-quotes": true,
 
     // jsformat options
     "format_on_save": false,
