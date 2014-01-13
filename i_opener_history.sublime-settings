@@ -3,6 +3,9 @@
 	[
 		"~\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\ahk",
 		"C:\\\\dev\\\\repos\\\\ui-core\\\\.jshintrc",
-		"~\\bash\\tree"
+		"~\\bash\\tree",
+		"~\\..\\..\\dev\\repos\\ui-core\\frameworks\\eventjs\\event.js",
+		"~\\..\\..\\dev\\repos\\classflow\\ui-presenter\\app\\partials\\header.html",
+		"~\\AppData\\Roaming\\Sublime Text 3\\Packages\\User\\Phoenix Dark.sublime-theme"
 	]
 }

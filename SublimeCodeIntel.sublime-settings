@@ -72,7 +72,7 @@
     */
     "codeintel_scan_exclude_dir":
     {
-        "JavaScript":["/build/", "/min/", "/*bower*/"]
+        "JavaScript":["/build/", "/min/"]
     },
 
     /* Code Scanning: Controls how the Code Intelligence system scans your source code files. */

@@ -221,6 +221,37 @@
                 "command": "bh_modules.swapquotes"
             }
         }
+    },
+
+        // Go to left bracket
+    {
+        "keys": ["ctrl+alt+super+up"],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "left"}
+            }
+        }
+    },
+    // Go to right bracket
+    {
+        "keys": ["ctrl+alt+super+down"],
+        "command": "bh_key",
+        "args":
+        {
+            "lines" : true,
+            "plugin":
+            {
+                "type": ["__all__"],
+                "command": "bh_modules.bracketselect",
+                "args": {"select": "right"}
+            }
+        }
     }
 
 

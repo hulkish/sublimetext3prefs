@@ -34,7 +34,7 @@
     "bracket_string_escape_mode": "string",
 
     // Set max number of multi-select brackets that will be searched automatically
-    "auto_selection_threshold" : 10,
+    "auto_selection_threshold" : 100,
 
     // Disable gutter icons when doing multi-select
     "no_multi_select_icons": false,
@@ -345,7 +345,7 @@
         "unmatched": {
             "icon": "question",
             // "color": "brackethighlighter.unmatched",
-            "style": "underline"
+            "style": "outline"
         },
         // User defined region styles
         "curly": {

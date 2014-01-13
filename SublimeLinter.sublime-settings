@@ -2,10 +2,10 @@
     "user": {
         "debug": false,
         "delay": 0.25,
-        "error_color": "FF8080",
+        "error_color": "#FA161C",
         "gutter_theme": "Packages/SublimeLinter/gutter-themes/Circle/Circle.gutter-theme",
         "gutter_theme_excludes": [],
-        "lint_mode": "background",
+        "lint_mode": "load/save",
         "linters": {
             "csslint": {
                 "@disable": false,
@@ -17,13 +17,26 @@
             },
             "htmltidy": {
                 "@disable": false,
-                "args": [],
-                "excludes": []
+                "args": [
+                    "-config",
+                    "C:\\Users\\steven.hargrove\\.htmltidyconfig"
+                ],
+                "excludes": [],
+                "ignore_match": [
+                    "missing <!DOCTYPE> declaration",
+                    "inserting implicit <(?:.*?)>",
+                    "inserting missing '(?:.*?)' element",
+                    "trimming empty <(?:.*?)>",
+                    "<(?:.*?)> lacks \"(?:.*?)\" attribute"
+                ]
             },
             "jshint": {
                 "@disable": false,
                 "args": [],
-                "excludes": []
+                "excludes": [],
+                "ignore_match": [
+                    "'e' is defined but never used"
+                ]
             },
             "json": {
                 "@disable": false,
@@ -51,12 +64,11 @@
             "osx": [],
             "windows": []
         },
-        "rc_search_limit": 15,
+        "rc_search_limit": 5,
         "show_errors_on_save": true,
         "show_marks_in_minimap": true,
         "sublimelinter_executable_map": {},
         "syntax_map": {
-            "html": "html-tidy",
             "js": "jshint",
             "less": "csslint"
         },
