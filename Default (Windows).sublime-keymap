@@ -252,7 +252,10 @@
                 "args": {"select": "right"}
             }
         }
-    }
+    },
+
+    // devdocs
+    { "keys": ["ctrl+alt+d"], "command": "dev_docs_search_selection" }
 
 
 

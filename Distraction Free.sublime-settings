@@ -3,5 +3,7 @@
     "margin": 6,
     "overlay_scroll_bars": "enabled",
     "line_numbers":true,
-    "gutter": true
+    "gutter": true,
+    "word_wrap": "always",
+    "wrap_width": 0
 }

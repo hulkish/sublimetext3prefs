@@ -104,7 +104,7 @@
 		"subpixel_antialias",
 		"directwrite"
 	],
-	"font_size": 8,
+	"font_size": 11,
 	"gpu_window_buffer": true,
 	"gutter": true,
 	"highlight_line": true,
@@ -112,16 +112,10 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
-		"SublimeCodeIntel",
-		"Vintage",
 		"EditorConfig",
-		"LiveReload",
-		"SideBarGit",
-		"Pretty JSON",
-		"Sublime Bookmarks",
 		"Markdown",
-		"Better JavaScript",
-		"AutoBackups"
+		"Vintage",
+		"SublimeLinter-json"
 	],
 	"indent_guide_options":
 	[

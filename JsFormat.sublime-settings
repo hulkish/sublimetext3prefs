@@ -13,7 +13,7 @@
     "unescape_strings": false,
     "break_chained_methods": false,
     "e4x": false,
-    "wrap_line_length": 105,
+    "wrap_line_length": 0,
     "single-quotes": true,
 
     // jsformat options

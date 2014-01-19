@@ -25,7 +25,7 @@
     "match_only_adjacent": false,
 
     // Character threshold to search
-    "search_threshold": 5000,
+    "search_threshold": 10000,
 
     // Ignore threshold
     "ignore_threshold": false,
